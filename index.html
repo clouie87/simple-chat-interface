@@ -42,11 +42,11 @@
 		<div id= "wrapper">
 			<div id="menu">
 				<p class = "welcome">Welcome, <br></p>
-				<div style="clear:both"></div>
+				<div style="clear:both"></div> <!-- i'm not sure why this is here and not in my css! -->
 			</div>
 
 		<div id	= "chatbox"></div>
-			<form name="message" id= "message" onsubmit= "return mySubmit()">
+			<form name="message" id= "message" onsubmit= "return mySubmit()"> <!-- when we getElementByID the id is message...shocking! but it took me forever to come to this conclusion -->
 				<input name = "usermsg" type="text" id="usermsg" size="63" placeholder= "Your sweet message goes here..."/>
 				<input name = "submitmsg" type="button" id="submitmsg" value="Submit" onclick= "mySubmit()"/>
 			</form>
