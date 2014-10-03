@@ -1,11 +1,12 @@
 
-/*header{ 
+header{ 
 	background-color: #485075;
 
 }
 body{
 	background-color: #485075;
 }
+/*
 img {
 	display: block;
 	height: 100%;
@@ -51,7 +52,7 @@ h1 {
 	text-align: left;
 	padding-left: 50px;
 }
-/*
+
 button {
 	margin-top: 50px;
 	border-radius: 7%;
@@ -65,7 +66,7 @@ button {
 	background-color: #F2C10E;
 	margin-bottom: 50px;
 }
-*/
+
 form {
 	margin:0;
 	padding: 2px;
@@ -162,9 +163,11 @@ input {
 }*/
 #menu {
 	margin-top: 0px;
-	padding: 5px;
-	background-color: white;
-	height: 0px;
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+	height: 30px;
+	border-radius: 15px;
 }
 
 .welcome {
@@ -181,7 +184,7 @@ input {
 	text-align: left;
 	border: 10px, solid, black;
 	border-radius: 5%;
-	background-color: orange;
+	background-color: white;
 	padding-left: 50px;
 	padding-top: 20px;
 	margin-top: 10px;
