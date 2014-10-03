@@ -1,0 +1,82 @@
+
+body{
+	background-color: #2850B1;
+}
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond;
+	font-size: 18px;
+}
+
+div {
+	text-align: center;
+	background-color: #485075; 
+}
+
+span {
+	border-spacing: 5px;
+	border-top: 5px;
+	background: 
+}
+
+a {
+	text-decoration: none;
+	font-color: #3S59AB;
+	font-family: helvetica;
+}
+
+#background1 {	
+	height: 50px;
+	width: 400px;
+	padding-right: 2px;
+	margin-left: -100px;
+	font-size: 18px;
+	font-family: helvetica;
+	color: white;
+	text-align: left;
+	background-color: #2850B1;
+	display: inline-block;
+
+}
+#title{
+	color:white;
+	text-align: center;
+	background-color: ;
+}
+
+#contacts{
+	margin-left: 50px;
+	height: 400px;
+	width: 400px;
+	border-radius: 100%;
+	border: 5px, solid, black;
+	background-color: ;
+}
+
+.uitpeeps{
+	margin-top: 100px;
+	border: 2px, solid, green;
+	text-align: center;
+	background-color: green;
+}
+.voltans{
+	border: 2px, solid, blue;
+}
+.friends{
+	border: 2px, solid, black;
+}
+img {
+	height: 400px;
+	width: 404px;
+	border-radius: 100%;
+	margin-left: 1px;
+}
+
+
