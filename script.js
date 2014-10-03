@@ -11,14 +11,14 @@ function chatbox(){
 	var cb= document.getElementById("type here");
 
 }*/
-
-//to make the "Join Us" button work 
-
+//buttom
 function join(){
 	var join = prompt ("What is your First Name?");
 }
 
-function chatmessage(){
-
-
+console.log("scriptloader")
+function mySubmit(){
+	var message = document.getElementById("usermsg").value;
+	console.log("message is "+message);
+	document.getElementById("chatbox").appendChild(document.createTextNode(message));
 }
