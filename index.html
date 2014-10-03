@@ -4,44 +4,56 @@
 
 <head>
 	<link type= "text/css" rel= "stylesheet" href="style.css" />
+	
+
 
 <title> Super Awesome </title>
 
 </head>
 
-<body>
-	<div> <!-- this is the top menu -->
+<body> <!-- this is the top menu -->
 	<div id = "background1"> <h2>Menu</h2> </div>
 	<div id = "background1"> <h2>About</h2> </div>
 	<div id = "background1"> <h2>Work</h2> </div>
 	<div id = "background1"> <h2>Contacts</h2> </div>
-	</div>
 
-<!-- the tile area where i will have the Title/ subtitle -->
+<!-- so ppl can find me on social media - figure out why this is giant and ugly as fuck -->
+	<div id ="socialmedia"><a href = "https://github.com/clouie87/"> <img class = "facebook" src = "http://www.beyondthecube.ca/images/github-logo.png?1370892103"> </a> </div>
+	<div id ="socialmedia"><a href = "https://www.facebook.com/carol.louie"><img class ="facebook" src = "http://i.imgur.com/mjIasJA.gif?1"></a></div>
+	<div id ="socialmedia"><a href = "https://twitter.com/caroline_louie"><img class="facebook" src="http://i.imgur.com/Kt0NzVT.gif"></a></div>
+
+<!-- types of nerds ppl might want to talk to ... maybe not uit, voltans but designers, devos etc -->	
 	<div id = "title"><h1>StartupChat</h1> 
-	<p> This is one super simple way to communicate with your friends! </p> <br>
-	</div>
+	<p> This is one super simple way to communicate with your friends! </p><br></div>
+	<div><button onclick = "join()" > Join US </button></div><br>
+	<!-- /not sure what i want to have asked for in the "register part"
+	<span><p> <h3> Join Now </h3></p> 
+		<form>
+			First Name: <input type="text" name="firstname"><br>
+			Last Name: <input type="text" name="lastname">
+		</form>
+	</span>
+	-->
 
-<!-- types of nerds ppl might want to talk to and contact-->
-		<div id="contacts" class= "uitpeeps"><img src= "http://www.betakit.com/wp-content/uploads/2014/08/uit.jpg"></div>
-		<div id="contacts" class= "voltans">Voltan </div>
+<!-- this is the code for the the "textbox" -->
+		<div id= "wrapper">
+			<div id="menu">
+				<p class = "welcome">Welcome, <br></p>
+			</div>
+			<form name="message" action="">
+				<input name = "usermsg" typer="text" id="usermsg" size="63" />
+			<!--need to figure out what the "submit button" works before i in this code -->
+			</form>
+		</div>
+		<div id="contacts"><img class="uitpeeps" src= "http://www.betakit.com/wp-content/uploads/2014/08/uit.jpg"></div>
+
+<!-- /not sure if i want to have more "contacts yet"
+		<div id="contacts">Voltan </div>
 		<div id="contacts" class= "friend">Friend</div>
+-->
 
-<!-- so ppl can find me on social media - should move up at some point ?-->
-	<div>
-		<span>
-				<a href = "https://www.facebook.com/carol.louie">facebook</a>
-		</span>
-		<span>	
-				<a href = "https://twitter.com/caroline_louie">twitter</a>
-		</span>	
 	
-	</div>
-
-
-
-
-
+<script src="script.js" type="text/JavaScript"></script>
 </body>
 
 
