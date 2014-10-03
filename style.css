@@ -1,5 +1,5 @@
 
-header{ 
+/*header{ 
 	background-color: #485075;
 
 }
@@ -12,6 +12,7 @@ img {
 	width: 100%;
 	margin: auto;
 }
+*/
 
 p {
 	font-family: helvetica;
@@ -50,6 +51,7 @@ h1 {
 	text-align: left;
 	padding-left: 50px;
 }
+/*
 button {
 	margin-top: 50px;
 	border-radius: 7%;
@@ -63,6 +65,7 @@ button {
 	background-color: #F2C10E;
 	margin-bottom: 50px;
 }
+*/
 form {
 	margin:0;
 	padding: 2px;
@@ -86,6 +89,7 @@ input {
 	display: inline-block;
 
 }
+/*
 #socialmedia {
 	display: inline-block;
 	height: 50px;
@@ -135,6 +139,7 @@ input {
 	border-radius: 3%;
 
 }
+*/
 #wrapper {
 	margin: 0 auto;
 	padding: 5px;
@@ -184,7 +189,7 @@ input {
 	margin-bottom: 25px;
 	height: 270px;
 	width: 430px;
-	overflow: auto;
+	overflow: auto; /* this makes it scroll through when there is too many messages */
 
 }
 /*the usermsg is where the user will type their message and submit it*/
@@ -206,7 +211,7 @@ input {
 }
 
 
-
+/*
 .uitpeeps{
 	border: 2px, solid, green;
 	text-align: center;

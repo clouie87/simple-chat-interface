@@ -28,11 +28,11 @@ function join(){
 
 console.log("scriptloader")
 function mySubmit(){
-	if(name.length === 0){
+	/*if(name.length === 0){
 		alert("Please Join Us first!");
 		return false;
 	}
-	else{ //i broke this part :) //
+	else{ //i broke this part :) //*/
 	var message = document.getElementById("usermsg").value;
 		//
 	console.log("message is "+message);
@@ -42,5 +42,5 @@ function mySubmit(){
 		//this goes adds a break below my message (it cannot append childs (or children) so we have to create the Break ourselve with a createElement)
 	document.getElementById("usermsg").value=""; //this means that the message gets cleared after it is sent
 	return false;// this lets me submit with enter and not have to use to submit button (must create html onsubmit=mySubmit())
-	}
+/*}*/
 }
