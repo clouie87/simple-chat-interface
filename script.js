@@ -1,24 +1,4 @@
 
-
-/*
-function myFacebook(){
-	href="https://www.facebook.com/carol.louie"
-};
-document.write() */
-
-/*<script> 
-function chatbox(){
-	var cb= document.getElementById("type here");
-
-}*/
-/*function(){
-
-}*/
-/*
-function moveAbout(){
-	document.scroll = "scroolBottom()"
-} I havent figured out what the fuck i am doing here but i will! this will be sorted :)! 
-*/
 var name=""; // this is a global variable all my functions below gets it :)
 
 

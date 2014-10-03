@@ -6,22 +6,6 @@ header{
 body{
 	background-color: #485075;
 }
-/*
-img {
-	display: block;
-	height: 100%;
-	width: 100%;
-	margin: auto;
-}
-*/
-
-p {
-	font-family: helvetica;
-	font-size: 24px;
-	padding:10px;
-	padding-left: 50px;
-	text-align: justify;
-}
 
 div {
 	text-align: center;
@@ -29,10 +13,6 @@ div {
 	vertical-align: middle;
 }
 
-span {
-	border-spacing: 5px;
-	background: #2850B1;
-}
 
 a {
 	text-decoration: none;
@@ -90,57 +70,7 @@ input {
 	display: inline-block;
 
 }
-/*
-#socialmedia {
-	display: inline-block;
-	height: 50px;
-	width: 75px;
-	margin-left: -5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: helvetica;
-	text-align: center;
-	display: inline-block;
-	
-}
 
-.facebook {
-	border: 1px, solid, black;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-}
-
-#title{
-	padding-top: 20px;
-	color: black;
-	text-align: center;
-	display: block;
-	clear: both;
-	float: center;
-	height: 500px;
-}
-
-.headPhoto{
-	background: url(http://i.imgur.com/z9x6yBh.jpg);
-	position: relative;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-#about{
-	height: 300px;
-	padding: 40px;
-	color: #2850B1;
-	margin-left: 2%;
-	width: 90%;
-	position: middle;
-	text-align: justify;
-	background-color: #E7E4D3;
-	border-radius: 3%;
-
-}
-*/
 #wrapper {
 	margin: 0 auto;
 	padding: 5px;
@@ -153,14 +83,6 @@ input {
 	border-radius: 5%;
 }
 
-/*#contacts{
-	margin-left: 50px;
-	display: inline-block;
-	height: 500px;
-	border: 5px, solid, black;
-
-	float:left;
-}*/
 #menu {
 	margin-top: 0px;
 	padding: 10px;
@@ -212,33 +134,3 @@ input {
 	clear: both;
 	width: 300px;
 }
-
-
-/*
-.uitpeeps{
-	border: 2px, solid, green;
-	text-align: center;
-	height: 400px;
-	width: 400px;
-	border-radius: 100%;
-	background-color: green;
-	margin-bottom: 20px;
-	float: left;
-	margin-left: 100px;
-}
-/*
-.voltans{
-	border: 2px, solid, blue;
-}
-.friends{
-	border: 2px, solid, black;
-}
-*/
-/*img {
-	height: 400px;
-	width: 404px;
-	border-radius: 100%;
-	margin-left: 1px;
-}*/
-
-
